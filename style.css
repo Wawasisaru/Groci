@@ -1,3 +1,4 @@
+/* contact starts */
 *{
     margin: 0;
     padding: 0;
@@ -131,3 +132,56 @@ font-weight: bold;
     /* Adjust other styles as needed for small screens */
 }
  /* Media querry end */
+ /*  */
+
+
+
+ 
+ /* contact start */
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+#Contact{
+    margin-top: 3%;
+    margin-left: 40%;
+    color: #CF6521;
+    font-size: 40px;
+   
+}
+.question{
+    font-size: larger;
+    margin-left: 30%;
+    margin-top: 4%;
+    color: #54643c;
+}
+.Info{
+    display: flex;
+    margin: 5%;
+    gap: 12%;
+    font-size: larger;
+    background-color: #274001;
+    padding: 5%;
+    color: white;
+
+}
+
+@media screen and (max-width: 768px) {
+    #Contact {
+        margin-left: 20%;
+        font-size: 30px;
+    }
+    .question {
+        margin-left: 10%;
+        font-size: medium;
+    }
+    .Info {
+        flex-direction: column;
+        margin: 2%;
+        gap: 6%;
+        font-size: medium;
+        padding: 2%;
+    }
+}
+/* contacts ends */
